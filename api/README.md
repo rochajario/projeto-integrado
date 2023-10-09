@@ -1,11 +1,15 @@
-<p align="center">
-    <img src="./misc/Nutritia-no-bg.webp"/>
-    <h2 align="center">Workflow Aid for Nutritionists</h2>
-    <p align="center">Nest.js API</p>
-</p>
-<hr>
+<div align="center">
+    <h1><strong>Restful API - Backend</strong></h1>
+    <h3>
+        <strong>Pós Graduação Latu Sensu em Engenharia de Software</strong><br/>
+        <small><em>Pontifícia Universidade Católica de Minas Gerais</em></small>
+    </h3>
+    <image src="../docs/misc/nutritia-no-bg.png"/><br/>
+    <em>PUC Minas - 2023</em>
+</div>
+<hr/>
 
-## Environment Variables Example
+## Exemplo de variáveis de ambiente
 ```
 JWT_SECRET=abc@123
 DATABASE_HOST=localhost
@@ -16,13 +20,13 @@ DATABASE_SCHEMA=nutritia_db
 RUN_MIGRATIONS=true
 ```
 
-## Installation
+## Instalação
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Rodando a aplicação
 
 ```bash
 # development
@@ -35,7 +39,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Testes
 
 ```bash
 # unit tests

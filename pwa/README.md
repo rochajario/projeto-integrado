@@ -1,16 +1,15 @@
-<p align="center">
-    <img src="./misc/Nutritia-no-bg.webp"/>
-    <p align="center">
-        <a href="https://github.com/JRSJ-Nutritia/nutritia-vue-app/actions/workflows/ci.yml">
-            <img src="https://github.com/JRSJ-Nutritia/nutritia-vue-app/actions/workflows/ci.yml/badge.svg?branch=master"/>
-        </a>
-    </p>
-    <h2 align="center">Workflow Aid for Nutritionists</h2>
-    <p align="center">Vue.js 3 SPA | PWA</p>
-</p>
-<hr>
+<div align="center">
+    <h1><strong>Aplicação WEB (SPA/PWA) - Frontend</strong></h1>
+    <h3>
+        <strong>Pós Graduação Latu Sensu em Engenharia de Software</strong><br/>
+        <small><em>Pontifícia Universidade Católica de Minas Gerais</em></small>
+    </h3>
+    <image src="../docs/misc/nutritia-no-bg.png"/><br/>
+    <em>PUC Minas - 2023</em>
+</div>
+<hr/>
 
-## Install the dependencies
+## Instalar as dependências
 
 ```bash
 yarn
@@ -18,13 +17,13 @@ yarn
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Iniciar o aplicativo no modo de desenvolvimento (recarregamento de código ativo, relatório de erros, etc.)
 
 ```bash
 quasar dev
 ```
 
-### Lint the files
+### Lint dos arquivos
 
 ```bash
 yarn lint
@@ -32,7 +31,7 @@ yarn lint
 npm run lint
 ```
 
-### Format the files
+### Formatação dos arquivos
 
 ```bash
 yarn format
@@ -40,12 +39,8 @@ yarn format
 npm run format
 ```
 
-### Build the app for production
+### Construir aplicação para produção
 
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
