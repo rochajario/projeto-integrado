@@ -17,7 +17,7 @@
         </a>
     </li>
     <li>
-        <a href="./docs/pesquisa/pesquisa.html" target="_blank">
+        <a href="https://rochajario.github.io/projeto-integrado/" target="_blank">
             Pesquisa
         </a>
     </li>
