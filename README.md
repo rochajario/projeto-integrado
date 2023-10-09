@@ -29,12 +29,12 @@
     <li>Implementações:</li>
     <ul>
         <li>
-            <a href="./api" target="_blank">
+            <a href="https://github.com/rochajario/projeto-integrado/tree/main/api">
                 Restful API - Backend
             </a>
         </li>
         <li>
-            <a href="./pwa" target="_blank">
+            <a href="https://github.com/rochajario/projeto-integrado/tree/main/pwa">
                 Aplicação WEB (SPA/PWA) - Frontend
             </a>
         </li>
