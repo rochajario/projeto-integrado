@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  db:
+    container_name: local_database
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: local_password
+      MARIADB_DATABASE: local_db
+    networks:
+      - nutritia
+  api:
+    container_name: nutritia-api
+    build: .
+    ports:
+      - 5000:5000
+    environment:
+      NODE_ENV: development
+      JWT_SECRET: uCTfyswpHN7snjdfalRZwJfl38awuuSq
+      DATABASE_HOST: db
+      DATABASE_PORT: 3306
+      DATABASE_USER: root
+      DATABASE_PASSWORD: local_password
+      DATABASE_SCHEMA: local_db
+      RUN_MIGRATIONS: true
+    networks:
+      - nutritia
+networks:
+  nutritia:

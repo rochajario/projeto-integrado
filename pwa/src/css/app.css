@@ -1,0 +1,10 @@
+/* app global css */
+
+@font-face {
+  font-family: MavenPro;
+  src: url(./fonts/Maven-Pro-regular.woff);
+}
+
+.title {
+  font-family: "MavenPro";
+}

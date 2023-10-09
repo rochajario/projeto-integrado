@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    image: mariadb
+    restart: always
+    ports:
+      - 3307:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: nutritia_password
+      MARIADB_DATABASE: nutritia_db
+    networks:
+      - nutritia
+networks:
+  nutritia:
