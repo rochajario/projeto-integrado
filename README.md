@@ -22,7 +22,7 @@
         </a>
     </li>
     <li>
-        <a href="./docs/Relatório Técnico - Projeto Integrado - Eng. Software.docx" target="_blank">
+        <a href="https://github.com/rochajario/projeto-integrado/blob/main/docs/misc/Projeto%20Integrado%20-%20Eng.%20Software%20-%20PUC%20Minas.pdf">
             Relatório técnico
         </a>
     </li>
